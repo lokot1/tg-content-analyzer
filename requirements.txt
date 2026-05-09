@@ -1,0 +1,22 @@
+# Обязательные зависимости
+telethon==1.36.0
+openpyxl==3.1.2
+python-dotenv==1.0.1
+
+# OCR (уровень 2) — необязательно
+# pip install Pillow pytesseract
+# Также нужен Tesseract OCR: https://github.com/UB-Mannheim/tesseract/wiki
+
+# Расшифровка аудио (уровень 2) — необязательно
+# pip install openai-whisper
+# Требует ffmpeg: https://ffmpeg.org/download.html
+
+# Извлечение кадров видео (уровень 2) — необязательно
+# pip install moviepy
+
+# LLM API (уровень 3) — необязательно
+# pip install anthropic   # для Anthropic Claude
+# pip install openai      # для OpenAI GPT
+
+# Ускорение загрузки медиа Telethon — необязательно
+# pip install cryptg
